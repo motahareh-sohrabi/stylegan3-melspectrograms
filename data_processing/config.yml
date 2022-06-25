@@ -1,0 +1,13 @@
+wav_path: "/network/scratch/m/marco.jiralerspong/exvo/wav/"
+csv_path: "/network/datasets/restricted/icmlexvo2022_users/icmlexvo2022.var/icmlexvo2022_extract/data_info.csv"
+output_path: "/network/scratch/m/marco.jiralerspong/exvo/clean_test"
+csv_output_path: "/network/scratch/m/marco.jiralerspong/exvo/updated_exvo.csv"
+
+emotions: ["Awe", "Excitement", "Amusement", "Awkwardness", "Fear", "Horror", "Distress", "Sadness", "Surprise"]
+
+mel_config:
+  hop_length: 256
+  mel_channels: 128 # 256 for the 256x256 samples
+  sample_rate: 16000
+  pad_length: 128 # 256 for the 256x256 samples
+  pad_val: 0.000001
