@@ -1,0 +1,19 @@
+network_path: "/network/scratch/m/marco.jiralerspong/exvo/experiments/128/unconditional/00001-stylegan2-unconditional-gpus1-batch32-gamma0.0512"
+output_path: "/network/scratch/m/marco.jiralerspong/exvo/experiments/fid/128/unconditional"
+num_samples: 1000
+dimension: 128
+
+emotions: ["Awe", "Excitement", "Amusement", "Awkwardness", "Fear", "Horror", "Distress", "Sadness", "Surprise"]
+
+mel_config:
+  hop_length: 256
+  mel_channels: 128 # 256 for the 256x256 samples
+  sample_rate: 16000
+  pad_length: 128 # 256 for the 256x256 samples
+  pad_val: 0.000001
+
+interpolation:
+  output_path: "/network/scratch/m/marco.jiralerspong/exvo/experiments/fid/128/unconditional"
+  num_interpolations: 10
+  latent_1_idx: 0
+  latent_2_idx: 100
