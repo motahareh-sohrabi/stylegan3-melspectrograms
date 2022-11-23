@@ -1,7 +1,7 @@
-wav_path: "/network/scratch/m/marco.jiralerspong/exvo/wav/"
+wav_path: "/network/scratch/m/motahareh.sohrabi/exvo/wav/"
 csv_path: "/network/datasets/restricted/icmlexvo2022_users/icmlexvo2022.var/icmlexvo2022_extract/data_info.csv"
-output_path: "/network/scratch/m/marco.jiralerspong/exvo/clean_test"
-csv_output_path: "/network/scratch/m/marco.jiralerspong/exvo/updated_exvo.csv"
+output_path: "/network/scratch/m/motahareh.sohrabi/exvo/clean_test"
+csv_output_path: "/network/scratch/m/motahareh.sohrabi/exvo/updated_exvo.csv"
 
 emotions: ["Awe", "Excitement", "Amusement", "Awkwardness", "Fear", "Horror", "Distress", "Sadness", "Surprise"]
 

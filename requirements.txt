@@ -1,0 +1,20 @@
+# This project was built using Python 3.9.15
+
+pandas==1.2.4
+librosa==0.9
+noisereduce==2.0.1
+
+# Code style and linting
+black==22.10
+flake8==4.0.1
+isort==5.10.1
+pytest==7.1.2
+pylint==2.15
+mypy==0.990
+
+# See configudation under .pre-commit-config.yaml
+# Run `pre-commit install` to configure pre-commit hooks
+pre-commit==2.20.0
+
+--extra-index-url https://download.pytorch.org/whl/cu117
+torchaudio==0.13

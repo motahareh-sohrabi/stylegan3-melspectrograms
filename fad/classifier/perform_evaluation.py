@@ -41,7 +41,7 @@ if __name__ == '__main__':
     eval_params = {
         'use_gpu': True,
         'save_preds_path': "",
-        'model_path': "/home/mila/m/marco.jiralerspong/projects/sound-of-laughter/classifier/pretrained_model/predictions_model.pt",
+        'model_path': "/home/mila/m/motahareh.sohrabi/projects/sound-of-laughter/classifier/pretrained_model/predictions_model.pt",
     }
     
     main(dataset_params, eval_params)

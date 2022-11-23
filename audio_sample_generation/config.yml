@@ -1,5 +1,5 @@
-network_path: "/network/scratch/m/marco.jiralerspong/exvo/experiments/128/unconditional/00001-stylegan2-unconditional-gpus1-batch32-gamma0.0512"
-output_path: "/network/scratch/m/marco.jiralerspong/exvo/experiments/fid/128/unconditional"
+network_path: "/network/scratch/m/motahareh.sohrabi/exvo/experiments/128/unconditional/00001-stylegan2-unconditional-gpus1-batch32-gamma0.0512"
+output_path: "/network/scratch/m/motahareh.sohrabi/exvo/experiments/fid/128/unconditional"
 num_samples: 1000
 dimension: 128
 
@@ -13,7 +13,7 @@ mel_config:
   pad_val: 0.000001
 
 interpolation:
-  output_path: "/network/scratch/m/marco.jiralerspong/exvo/experiments/fid/128/unconditional"
+  output_path: "/network/scratch/m/motahareh.sohrabi/exvo/experiments/fid/128/unconditional"
   num_interpolations: 10
   latent_1_idx: 0
   latent_2_idx: 100
