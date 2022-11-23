@@ -1,5 +1,7 @@
 name: stylegan3
 channels:
+  - conda-forge
+  - defaults
   - pytorch
   - nvidia
 dependencies:
