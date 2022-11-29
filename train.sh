@@ -9,10 +9,10 @@ module load anaconda/3
 module load cuda/11.1
 conda activate stylegan3
 
-python train.py \
---outdir=<output_path> \
+python stylegan3/train.py \
+--outdir="/network/scratch/m/motahareh.sohrabi/exvo/stylegan2_output$" \
 --cfg=stylegan2 \
---data=<path_to_generated_mel_spectrograms> \
+--data="/network/scratch/m/motahareh.sohrabi/exvo/clean_test" \
 --gpus=1 \
 --batch=32 \
 --aug=noaug \
